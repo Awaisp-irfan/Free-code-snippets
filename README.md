@@ -1,8 +1,6 @@
 # WordPress & WooCommerce Snippets
 
-My personal collection of WordPress and WooCommerce code snippets, used on client projects and published at [awaisirfan.com/free-snippets](https://awaisirfan.com/free-snippets/).
-
-_Originally sourced from [mnestorov/wp-snippets](https://github.com/mnestorov/wp-snippets) (Unlicense — public domain), reorganized here as individual files by category, with ongoing additions and edits of my own._
+The collection of WordPress and WooCommerce code snippets, used on client projects and published at [awaisirfan.com/free-snippets](https://awaisirfan.com/free-snippets/).
 
 ## WordPress
 

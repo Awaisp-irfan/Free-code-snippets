@@ -1,0 +1,33 @@
+# Set a Custom Order for the Admin Sidebar Menu
+
+_From: [mnestorov/wp-snippets](https://github.com/mnestorov/wp-snippets) (Unlicense — public domain)_
+
+Rearranges the order menu items appear in down the left side of wp-admin.
+
+```php
+/**
+ * Reorder the Admin Menu
+ */
+function custom_menu_order( $menu_ord ) {
+    if ( ! $menu_ord ) { return true; }
+        return array(
+            'index.php',
+            'separator1',
+            'edit.php?post_type=page', 
+            'edit.php', 
+            'edit.php?post_type=[your_post_type_slug]',
+            'upload.php',
+            'edit-comments.php',
+            'separator2',
+            'themes.php',
+            'plugins.php',
+            'users.php',
+            'tools.php',
+            'options-general.php'
+        );
+    }
+}
+
+add_filter( 'custom_menu_order', 'custom_menu_order' );
+add_filter( 'menu_order', 'custom_menu_order' );
+```

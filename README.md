@@ -1,0 +1,87 @@
+# WordPress & WooCommerce Snippets
+
+My personal collection of WordPress and WooCommerce code snippets, used on client projects and published at [awaisirfan.com/free-snippets](https://awaisirfan.com/free-snippets/).
+
+_Originally sourced from [mnestorov/wp-snippets](https://github.com/mnestorov/wp-snippets) (Unlicense — public domain), reorganized here as individual files by category, with ongoing additions and edits of my own._
+
+## WordPress
+
+- [Disable the WordPress REST API](wordpress/disable-json-rest-api.md)
+- [Exclude a Category From the Main WordPress Loop](wordpress/exclude-a-category-from-wordpress-loops.md)
+- [Standard Pattern for Enqueuing Theme CSS/JS](wordpress/enqueue-styles-and-scripts.md)
+- [Customize the Excerpt “More” Text](wordpress/change-more-excerpt.md)
+- [Strip Version Query Strings From CSS/JS URLs](wordpress/remove-query-string-from-static-resources.md)
+- [Register a Basic Custom Post Type](wordpress/add-custom-post-type.md)
+- [Enable Categories for Media Attachments](wordpress/add-categories-for-attachments.md)
+- [Register and Output a Custom Nav Menu](wordpress/include-navigation-menus.md)
+- [Track Post Views Without a Plugin](wordpress/show-popular-posts-without-plugins.md)
+- [Change the Default Excerpt Word Count](wordpress/modify-excerpt-length.md)
+- [Turn Off Post Revisions Entirely](wordpress/disable-post-revisions.md)
+- [Clear Every Default Widget Off the Dashboard](wordpress/remove-all-dashboard-widgets.md)
+- [Turn Off Automatic Theme Updates](wordpress/disable-automatic-wordpress-theme-updates.md)
+- [Show a Different Nav Menu to Logged-In Users](wordpress/display-different-menus-to-logged-in-users.md)
+- [Log PHP Values to the Browser Console](wordpress/php-logger.md)
+- [Enable HTML5 Markup for the Search Form](wordpress/support-search-form.md)
+- [Build a Simple Custom Settings Page](wordpress/create-custom-global-settings.md)
+- [Customize the wp-admin Footer Text](wordpress/modify-admin-footer-text.md)
+- [Add a Custom Widget to the wp-admin Dashboard](wordpress/create-custom-wordpress-dashboard-widget.md)
+- [Add a Preconnect Hint for Google Fonts](wordpress/implement-preconnect-to-google-fonts-in-themes.md)
+- [Set a Custom Order for the Admin Sidebar Menu](wordpress/reorder-admin-menu-items.md)
+- [Register and Output a Custom Image Size](wordpress/create-custom-thumbnail-size.md)
+- [Boilerplate for a Classic Widgets API Widget](wordpress/create-new-custom-widget.md)
+- [Allow ZIP, MOBI, PDF & EPUB Uploads](wordpress/allow-additional-file-formats-for-the-media-library.md)
+- [Auto-Escape HTML Typed Inside Code Tags](wordpress/escape-html-in-posts.md)
+- [Define a Reusable Global String](wordpress/create-a-global-string.md)
+- [Exclude Pages From Site Search](wordpress/excluding-pages-from-search.md)
+- [Customize the “Read More” Link Text](wordpress/change-read-more-link.md)
+- [Hide Admin Menu Items Based on Email Domain](wordpress/remove-admin-menu-items-depending-on-email-address-domain.md)
+- [Strip Out WordPress's Built-In Emoji Scripts](wordpress/disable-emoji-mess.md)
+- [Notify the Admin When a User Updates Their Profile](wordpress/send-email-to-admin-if-user-updated-his-profile.md)
+- [Disable XML-RPC](wordpress/disable-xmlrpcphp.md)
+- [Revert to the Classic Editor Without a Plugin](wordpress/disable-gutenberg-from-wordpress-5-without-a-plugin.md)
+- [Keep the Second Toolbar Row Open in the Classic Editor](wordpress/always-show-second-bar-in-tinymce.md)
+- [Turn Off WordPress Core Auto-Updates](wordpress/disable-automatic-updates-in-wordpress.md)
+- [Basic Open Graph Meta Tags for Single Posts](wordpress/add-open-graph-meta-tags.md)
+- [Replace the WordPress Logo on the Login Page](wordpress/insert-custom-login-logo.md)
+- [Silence the jQuery Migrate Console Warning](wordpress/disable-the-jqmigrate-warning-message.md)
+- [Bulk-Convert Posts From One Post Type to Another](wordpress/switch-post-type.md)
+- [Turn Off Automatic Plugin Updates](wordpress/disable-automatic-wordpress-plugin-updates.md)
+- [Serve Media Library Files From a Different Domain or CDN](wordpress/change-media-gallery-url.md)
+- [Enable Featured Images (Post Thumbnails)](wordpress/support-featured-images.md)
+- [Stop WordPress From Piling Up Image Edit Backups](wordpress/cleanup-image-edits-in-wordpress.md)
+- [Limit Search Results to Regular Posts Only](wordpress/exclude-custom-post-type-from-search.md)
+- [Remove the Admin Bar's Front-End Spacing Fix](wordpress/remove-wordpress-admin-bar.md)
+- [Load jQuery From Google's CDN Instead of Locally](wordpress/modify-jquery.md)
+- [Hide Admin Menu Items for a Custom User Role](wordpress/remove-admin-menu-items-depending-on-user-role.md)
+- [Remove the Website Field From the Comment Form](wordpress/disable-website-field-from-comment-form.md)
+- [Only Show the Update Nag to Admins](wordpress/hide-wordpress-update-nag-to-all-but-admins.md)
+- [Load a Google Font the Proper WordPress Way](wordpress/enqueue-google-fonts.md)
+- [Two Ways to Reference Theme Images in Templates](wordpress/linking-images-within-a-theme.md)
+- [Enable the Excerpt Field on Pages](wordpress/add-custom-excerpt-to-pages.md)
+- [Let WordPress Manage Your `<title>` Tag](wordpress/utilize-proper-wordpress-titles.md)
+- [Add a “Lead” Class to a Post's Opening Paragraph](wordpress/add-lead-class-to-first-paragraph.md)
+- [Cap the Number of Saved Revisions Per Post](wordpress/specify-the-number-of-post-revisions.md)
+- [Enable Tags for Media Attachments](wordpress/add-tags-for-attachments.md)
+- [Fully Disable Comments Site-Wide](wordpress/remove-comments.md)
+- [Show a Thumbnail Column in the Post List Table](wordpress/add-thumbnail-column-to-post-listing.md)
+
+## WooCommerce
+
+- [Override How a Currency Symbol Displays in WooCommerce](woocommerce/change-the-appearance-of-a-foreign-currency-in-woocommerce.md)
+- [Shortcode: Show a Customer's Purchase History as a Product Grid](woocommerce/display-all-products-purchased-by-user-via-shortcode-in-woocommerce.md)
+- [Sell a Custom Post Type Through WooCommerce](woocommerce/how-to-add-custom-post-type-to-woocommerce.md)
+- ["Add $X More for Free Shipping" Cart Notice](woocommerce/create-a-message-for-remaining-amount-of-a-purchase-for-free-delivery-in-woocommerce.md)
+- [Custom Notice on the WooCommerce Login/Registration Form](woocommerce/add-a-message-to-the-login-or-registration-form-in-woocommerce.md)
+- [Reorder (and Rename) the My Account Menu Tabs](woocommerce/how-to-reorder-a-custom-tab-at-my-account-page-in-woocommerce.md)
+- [Hide Specific Tabs on the WooCommerce Product Page](woocommerce/remove-specific-product-tabs-in-woocommerce.md)
+- [Add a Custom Tab to the WooCommerce My Account Page](woocommerce/how-to-add-a-new-tab-at-my-account-page-in-woocommerce.md)
+
+## Other
+
+- [WordPress Pretty Permalinks .htaccess Rules](other/simple-htaccess-for-wordpress.md)
+- [A Baseline robots.txt Setup for WordPress](other/default-robotstxt-for-wordpress.md)
+
+## Security
+
+- [Lock Down the Theme & Plugin File Editor](security/disable-theme-or-plugin-editor-in-wp-admin.md)
+- [Hide the WordPress Version Number](security/remove-wordpress-version.md)
